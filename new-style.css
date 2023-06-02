@@ -1,0 +1,496 @@
+/* Front-end Style Guide
+Layout
+The designs were created to the following widths:
+
+Mobile: 375px
+Desktop: 1440px
+Colors
+Primary
+Pink: hsl(322, 100%, 66%)
+Light Pink: hsl(321, 100%, 78%)
+Light Red: hsl(0, 100%, 63%)
+Neutral
+Very Dark Cyan: hsl(192, 100%, 9%)
+Very Pale Blue: hsl(207, 100%, 98%)
+Typography
+Headings
+Family: Poppins
+Weights: 700
+Body
+Family: Open Sans
+Weights: 400, 600, 700
+Icons
+For the social icons, you can use a font icon library. Some suggestions can be found below:
+
+Font Awesome
+IcoMoon
+Ionicons */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Poppins", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: hsl(192, 100%, 9%);
+}
+
+.btn {
+  text-align: center;
+  border-radius: 35px;
+  font-size: 12px;
+  padding: 4px 20px;
+}
+
+.btn-light {
+  border: 1px solid hsl(321, 100%, 78%);
+  color: hsl(321, 100%, 78%);
+}
+
+.btn-deep {
+  border: 1px solid hsl(322, 100%, 66%);
+  background-color: hsl(322, 100%, 66%);
+  color: hsl(207, 100%, 98%);
+}
+
+/* header styles */
+
+.header-container {
+  height: 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+/* main */
+
+/* showcase */
+.showcase {
+  padding: 20px 10px;
+  margin: auto;
+  text-align: center;
+  width: 70%;
+}
+
+.showcase-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.show-text p {
+  padding: 10px 0;
+  font-size: 12px;
+  width: 40%;
+  margin: auto;
+}
+
+.get-started {
+  margin: 5px 0;
+}
+
+.showcase-img {
+  margin: auto;
+  padding: 40px 0 10px 0;
+}
+
+.users-tab-container {
+  height: 100px;
+  width: 40%;
+  margin: 0 auto 20px auto;
+}
+
+.user-tab-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: start;
+  align-items: center;
+  padding: 0 30px;
+  margin: auto;
+}
+
+.user-col .user-num {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.user-col p {
+  font-size: 10px;
+  text-align: center;
+}
+
+.section-three-container,
+.section-four-container,
+.section-five-container {
+  height: 680px;
+  margin: auto;
+  padding: 100px 0;
+}
+
+.section-three-container,
+.section-five-container {
+  background-color: hsl(207, 100%, 98%);
+}
+
+.sec-two-bckgd {
+  height: 200px;
+  background-image: url(img/4_5980840731042909536.svg);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-color: lightcyan; */
+}
+
+.sec-three-bckgd {
+  height: 200px;
+  width: 100%;
+  background-image: url(img/4_5980840731042909552.svg);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.sec-four-bckgd {
+  height: 200px;
+  width: 100%;
+  background-image: url(img/4_5980840731042909537.svg);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.section-three-content,
+.section-five-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 90%;
+}
+
+.section-four-content {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 90%;
+}
+
+.sec-three-col-one,
+.sec-five-col-one {
+  padding-right: 30px;
+}
+
+.sec-four-col-one {
+  padding-left: 100px;
+}
+
+.sec-three-col p,
+.sec-four-col p,
+.sec-five-col p {
+  padding: 10px 0;
+  font-size: 16px;
+  width: 80%;
+}
+
+.sec-six-bckgd {
+  height: 150px;
+  width: 100%;
+  background-image: url(img/4_5980840731042909553.svg);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.section-six-container {
+  height: 400px;
+  margin: auto;
+  padding: 100px 0;
+  background-image: url(img/4_5980840731042909551.svg);
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.sec-six-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec-six-content h1 {
+  padding: 0 0 20px 0;
+}
+
+.last-sec {
+  color: hsl(207, 100%, 98%);
+  height: 350px;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(192, 100%, 9%);
+}
+
+.last-sec-content {
+  display: flex;
+  flex-direction: row;
+  padding: 50px 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.last-sec-col-container {
+  width: 30%;
+  margin: auto;
+}
+
+.last-sec-col p {
+  padding: 15px 0;
+  font-size: 15px;
+  font-weight: small;
+}
+
+.last-sec-col ul li {
+  padding: 5px 0;
+}
+
+.social-accounts {
+  display: flex;
+  flex-direction: row;
+  padding: 40px 0 0 0;
+}
+
+ul.social-accounts li {
+  padding: 0 12px 0 0;
+}
+
+.phone img,
+.mail img {
+  padding-right: 10px;
+}
+
+.newsletter-form {
+  display: flex;
+  flex-direction: row;
+}
+
+.input50 {
+  width: 50%;
+  margin: 0 50px 0 0;
+}
+
+.newsletter-form .input50 input {
+  position: relative;
+  background-color: hsl(207, 100%, 98%);
+  border: 1px solid hsl(207, 100%, 98%);
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.newsletter-form .input100 input {
+  position: relative;
+  background-color: hsl(322, 100%, 66%);
+  border: 1px solid hsl(322, 100%, 66%);
+  color: hsl(207, 100%, 98%);
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+@media (max-width: 1440px) {
+  .show-text p {
+    padding: 10px 0;
+    font-size: 12px;
+    width: 40%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 375px) {
+  .header-container {
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+
+  .showcase {
+    padding: 10px 10px;
+    width: 90%;
+  }
+
+  .show-text h1 {
+    font-size: 25px;
+  }
+
+  .show-text p {
+    width: 100%;
+    font-size: 14px;
+    padding: 15px 0;
+    /* background-color: green; */
+  }
+
+  .showcase-img {
+    padding: 40px 0 10px 0;
+    width: 100%;
+  }
+
+  .users-tab-container {
+    height: 100px;
+    width: 100%;
+    margin: 0 auto 10px auto;
+  }
+
+  .section-three-container,
+  .section-four-container,
+  .section-five-container {
+    height: 500px;
+    padding: 30px 0;
+  }
+
+  .sec-two-bckgd {
+    background-image: url(img/4_5980840731042909538.svg);
+    height: 100px;
+  }
+
+  .sec-three-bckgd {
+    height: 100px;
+  }
+
+  .sec-four-bckgd {
+    height: 100px;
+    background-image: url(img/4_5980840731042909539.svg);
+  }
+
+  .section-three-content,
+  .section-four-content,
+  .section-five-content {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    margin: auto;
+  }
+
+  .sec-three-col img,
+  .sec-four-col img,
+  .sec-five-col img {
+    margin-bottom: 70px;
+    width: 90%;
+  }
+
+  .sec-three-col,
+  .sec-four-col,
+  .sec-five-col {
+    text-align: center;
+  }
+
+  .sec-three-col-one,
+  .sec-four-col-one,
+  .sec-five-col-one {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .sec-three-col p,
+  .sec-four-col p,
+  .sec-five-col p {
+    padding: 10px 10px;
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .sec-six-content h1 {
+    padding: 0 5px 20px 5px;
+    font-size: 25px;
+    width: 80%;
+    text-align: center;
+  }
+
+  .last-sec {
+    height: 650px;
+  }
+
+  .last-sec-content {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 20px 0;
+  }
+
+  .last-sec-col-container {
+    width: 85%;
+    margin: 40px auto;
+  }
+
+  .last-sec-col h1 {
+    font-size: 25px;
+  }
+
+  .last-sec-col ul li img {
+    font-size: 12px;
+  }
+
+  .last-sec-col ul li {
+    padding: 2px 0;
+  }
+
+  ul.social-accounts li {
+    padding: 0 12px 0 0;
+  }
+
+  .newsletter-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .input50 {
+    margin: auto;
+    width: 100%;
+  }
+
+  .phone,
+  .mail {
+    font-size: 12px;
+  }
+
+  .input100 {
+    padding-top: 0;
+    width: 50%;
+    margin: 0;
+  }
+
+  .newsletter-form .input50 input,
+  .newsletter-form .input100 input {
+    width: 100%;
+    margin: 2px;
+  }
+}
