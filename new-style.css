@@ -340,7 +340,7 @@ ul.social-accounts li {
 @media (max-width: 550px) {
   .header-container {
     padding: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
   }
 
   .showcase {
@@ -373,21 +373,21 @@ ul.social-accounts li {
   .section-three-container,
   .section-four-container,
   .section-five-container {
-    height: 500px;
+    height: 700px;
     padding: 30px 0;
   }
 
   .sec-two-bckgd {
     background-image: url(img/4_5980840731042909538.svg);
-    height: 100px;
+    height: 200px;
   }
 
   .sec-three-bckgd {
-    height: 100px;
+    height: 200px;
   }
 
   .sec-four-bckgd {
-    height: 100px;
+    height: 200px;
     background-image: url(img/4_5980840731042909539.svg);
   }
 
