@@ -48,6 +48,7 @@ body {
   font-size: 20px;
   font-weight: 400;
   color: hsl(192, 100%, 9%);
+  background-color: black;
 }
 
 .btn {
@@ -226,7 +227,7 @@ body {
 }
 
 .section-six-container {
-  height: 410px;
+  height: 420px;
   margin: auto;
   padding: 100px 0;
   background-image: url(img/4_5980840731042909551.svg);
